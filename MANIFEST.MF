@@ -1,0 +1,3 @@
+Main-Class: com.egzamin.Main
+Class-Path: lib/mysql-connector-j.jar
+
