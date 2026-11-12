@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testy</title>
+    <style>
+        table, td, tr {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<h1>Protokol z testow</h1>
+<table>
+    <tr>
+        <td>Lp</td>
+        <td>Test</td>
+        <td>Dane</td>
+        <td>Oczekiwany wynik</td>
+        <td>Status</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dodanie pracownika</td>
+        <td>Piotr, Zielinski, Analityk</td>
+        <td>Dodano pracownika</td>
+        <td>OK</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Puste pola</td>
+        <td>nic nie wpisane</td>
+        <td>Wszystkie pola sa wymagane</td>
+        <td>OK</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Zle dane</td>
+        <td>Jan123, Kowalski, Tester</td>
+        <td>Blad ze tylko litery</td>
+        <td>OK</td>
+    </tr>
+</table>
+</body>
+</html>
